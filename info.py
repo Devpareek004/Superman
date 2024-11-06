@@ -70,8 +70,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://anyname:anyname@anyname.pdnne.mongodb.net/?retryWrites=true&w=majority&appName=anyname")
-DATABASE_NAME = environ.get('DATABASE_NAME', "anyname")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://useless:useless@superman.c90zq.mongodb.net/?retryWrites=true&w=majority&appName=Superman")
+DATABASE_NAME = environ.get('DATABASE_NAME', "useless")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
